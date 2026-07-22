@@ -29,13 +29,13 @@ const DELIVERY_COMPANIES: DeliveryCompany[] = [
     color: 'bg-amber-100 text-amber-800 border-amber-300',
     field2: { label: 'Jeton API (Token)', placeholder: 'Enter your DHD API Jeton...', type: 'text' },
   },
-  // {
-  //   id: 'omexpress',
-  //   name: 'OM Express',
-  //   badge: 'OM',
-  //   color: 'bg-indigo-100 text-indigo-800 border-indigo-300',
-  //   field2: { label: 'Jeton API (Token)', placeholder: 'Enter your OM Express API Jeton...', type: 'text' },
-  // },
+  {
+    id: 'omexpress',
+    name: 'OM Express',
+    badge: 'OM',
+    color: 'bg-indigo-100 text-indigo-800 border-indigo-300',
+    field2: { label: 'Jeton API (Token)', placeholder: 'Enter your OM Express API Jeton...', type: 'text' },
+  },
   {
     id: 'yalidine',
     name: 'Yalidine Express',
